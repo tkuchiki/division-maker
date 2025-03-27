@@ -54,10 +54,18 @@ function App() {
 
   const generateProblems = () => {
     const newProblems = [];
+
     for (let i = 0; i < problemCount; i++) {
       while (true) {
-        const divisorMin = 10 ** (divisorDigits - 1);
-        const divisorMax = 10 ** divisorDigits - 1;
+        let divisorMin, divisorMax;
+        if (divisorDigits === 1) {
+          divisorMin = 2;  // 1 は除外
+          divisorMax = 9;
+        } else {
+          divisorMin = 10 ** (divisorDigits - 1);
+          divisorMax = 10 ** divisorDigits - 1;
+        }
+
         const dividendMin = 10 ** (dividendDigits - 1);
         const dividendMax = 10 ** dividendDigits - 1;
 
@@ -89,8 +97,8 @@ function App() {
         }
       }
     }
-    setProblems(newProblems);
 
+    setProblems(newProblems);
     saveSettingsToCookie();
   };
 
@@ -170,8 +178,8 @@ function App() {
 
         <div className="problems-grid">
           {problems.map((prob, index) => {
+            // \require{enclose}4 \enclose{longdiv}{544}
             const latex = String.raw`\require{enclose}${prob.divisor} \enclose{longdiv}{${prob.dividend}}`;
-
             return (
               <div
                 key={index}
