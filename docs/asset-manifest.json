@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/division-maker/static/css/main.e5233b5a.chunk.css",
-    "main.js": "/division-maker/static/js/main.9a18bff8.chunk.js",
-    "main.js.map": "/division-maker/static/js/main.9a18bff8.chunk.js.map",
+    "main.js": "/division-maker/static/js/main.b894393e.chunk.js",
+    "main.js.map": "/division-maker/static/js/main.b894393e.chunk.js.map",
     "runtime~main.js": "/division-maker/static/js/runtime~main.91f073de.js",
     "runtime~main.js.map": "/division-maker/static/js/runtime~main.91f073de.js.map",
     "static/js/2.44a5f3d6.chunk.js": "/division-maker/static/js/2.44a5f3d6.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.7426b29a.chunk.js": "/division-maker/static/js/3.7426b29a.chunk.js",
     "static/js/3.7426b29a.chunk.js.map": "/division-maker/static/js/3.7426b29a.chunk.js.map",
     "index.html": "/division-maker/index.html",
-    "precache-manifest.b96f572301d731c1669b83ae2c8170ee.js": "/division-maker/precache-manifest.b96f572301d731c1669b83ae2c8170ee.js",
+    "precache-manifest.e60e834254f07f631f9f433eafa79afc.js": "/division-maker/precache-manifest.e60e834254f07f631f9f433eafa79afc.js",
     "service-worker.js": "/division-maker/service-worker.js",
     "static/css/main.e5233b5a.chunk.css.map": "/division-maker/static/css/main.e5233b5a.chunk.css.map"
   }
